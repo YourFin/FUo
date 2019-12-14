@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FUo",
-  "version": "0.1.16",
+  "version": "1.0.0",
 
   "description": "Prevents duo from nagging about out of date operating systems and browsers.",
 
