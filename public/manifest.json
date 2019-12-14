@@ -1,9 +1,14 @@
 {
-  "manifest_version": 2,
-  "name": "FUo",
-  "version": "1.0.1",
+    "manifest_version": 2,
+    "name": "FUo",
+    "version": "1.0.2",
 
-  "description": "Prevents duo from nagging about out of date operating systems and browsers.",
+    "description": "Prevents duo from nagging about out of date operating systems and browsers.",
+    "icons": {
+        "48": "icons/fuo-48.png",
+        "16": "icons/fuo-16.png",
+        "128": "icons/fuo-128.png"
+    },
 
     "permissions": [
         "webRequest",
