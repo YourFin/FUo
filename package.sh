@@ -24,6 +24,10 @@ for size in ${EXTENSION_SIZES[@]} ; do
     inkscape -z -e "public/icons/fuo-${size}.png" -w $size -h $size ./logo.svg
 done
 
+echo
+echo "Packing assets in fuo.zip..."
+echo
+
 rm -f fuo.zip
 
 cleanupPrime() {
