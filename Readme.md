@@ -4,3 +4,4 @@ This extension stops the Duo two factor authentication page from warning about o
 This software has no affiliation with Duo Security, inc.
 
 # License
+Code: Apache 2.0
