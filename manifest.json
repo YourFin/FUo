@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "FUo",
+  "version": "0.1.3",
+
+  "description": "Prevents duo from nagging about out of date operating systems and browsers.",
+
+    "permissions": [
+        "webRequest",
+        "*://*.duosecurity.com/*"
+    ],
+
+  "icons": {
+    "48": "icons/fuo-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [],
+      "js": ["FUo-content.js"]
+    }
+  ],
+
+    "background": {
+        "scripts": ["FUo-background1.js"]
+    }
+
+}
