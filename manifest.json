@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FUo",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "description": "Prevents duo from nagging about out of date operating systems and browsers.",
 
@@ -9,8 +9,7 @@
         "webRequest",
         "webRequestBlocking",
         "http://*.duosecurity.com/*",
-        "https://*.duosecurity.com/*",
-        "https://us.azureauth.duosecurity.com/*"
+        "https://*.duosecurity.com/*"
     ],
 
     "background": {
