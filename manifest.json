@@ -10,17 +10,6 @@
         "*://*.duosecurity.com/*"
     ],
 
-  "icons": {
-    "48": "icons/fuo-48.png"
-  },
-
-  "content_scripts": [
-    {
-      "matches": [],
-      "js": ["FUo-content.js"]
-    }
-  ],
-
     "background": {
         "scripts": ["FUo-background1.js"]
     }
