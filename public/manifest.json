@@ -4,11 +4,14 @@
     "version": "1.0.2",
 
     "description": "Prevents duo from nagging about out of date operating systems and browsers.",
+    "homepage_url": "https://github.com/yourfin/fuo",
     "icons": {
         "48": "icons/fuo-48.png",
         "16": "icons/fuo-16.png",
         "128": "icons/fuo-128.png"
     },
+
+    "offline_enabled": false,
 
     "permissions": [
         "webRequest",
