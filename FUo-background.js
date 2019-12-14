@@ -12,7 +12,7 @@ var duo_valid_user_agent =
 
 
 function rewriteUserAgentHeader(e) {
-    console.log("Rewriting...");
+    console.log("Rewriting user-agent for url: " + e.url);
     e.requestHeaders.forEach(function(header){
         if (header.name.toLowerCase() == "user-agent") {
             header.value = duo_valid_user_agent;
