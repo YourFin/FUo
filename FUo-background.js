@@ -7,6 +7,7 @@ window.browser = (function () {
         window.chrome;
 })();
 
+// Pretend like we're chrome from the far far future so we don't get out of date
 var duo_valid_user_agent =
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/10000.0.0 Safari/537.36';
 
