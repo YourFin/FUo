@@ -5,7 +5,7 @@ This extension stops the Duo two factor authentication page from warning about o
 
 **This software has no affiliation with Duo Security, inc.**
 
-Available as a [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/fuo/), with a Chrome extension currently under review by Google.
+Available as a [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/fuo/), and a [Chrome extension](https://chrome.google.com/webstore/detail/fuo/khkepdnblbdignelmabicolaneiellla).
 
 # Developer instructions
 
